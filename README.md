@@ -35,9 +35,9 @@ The following if statement checks that the county does not match existing counti
 In addition it compiles the number of votes for each county.
 
 '''if county_name not in county_options:
-	county_options.append(county_name)
-	county_votes[county_name] = 0
-	county_votes[county_name] += 1'''
+		county_options.append(county_name)
+		county_votes[county_name] = 0
+		county_votes[county_name] += 1'''
 
 - Which county had the largest number of votes?
 	* Denver county had the largest number of votes with 306,055
